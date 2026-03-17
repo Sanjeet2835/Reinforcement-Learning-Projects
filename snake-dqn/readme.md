@@ -29,7 +29,7 @@ Make sure you have Python installed, then install the required libraries:
 ```bash
 pip install -r requirements.txt
 ```
-*(Requirements should include `pygame`, `torch`, `numpy`)*
+
 
 ### 2. Train the AI from Scratch
 To watch the AI learn from completely random movements to a master snake, run the training script:
@@ -43,7 +43,7 @@ If you just want to see the AI play using the pre-trained model (no exploration,
 ```bash
 python play.py
 ```
-Note: 
+*Note: Make sure the model_path is correct*
 
 ## 🛠️ Concepts Covered
 * Reinforcement Learning (RL)
@@ -51,4 +51,3 @@ Note:
 * The Bellman Equation
 * Epsilon-Greedy Exploration Strategy
 * Experience Replay (Long-term & Short-term memory)
-* PyTorch Model Checkpointing
