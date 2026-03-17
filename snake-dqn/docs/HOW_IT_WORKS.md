@@ -22,7 +22,7 @@ The **Model** is purely the mathematical engine. It is a PyTorch Neural Network 
 
 * **Inputs:** The 7-number State array.
 * **Outputs:** 3 numbers representing the predicted Q-values for the actions `[Go Straight, Turn Right, Turn Left]`.
-* **Its Job:** To act as a calculator. When given a State, it predicts which action will yield the highest long-term reward. It holds no memory and makes no decisions on its own.
+* **Its Job:** When given a State, it predicts which action will yield the highest long-term reward. It holds no memory and makes no decisions on its own.
 
 ---
 
