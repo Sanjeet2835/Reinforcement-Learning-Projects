@@ -1,4 +1,3 @@
-```markdown
 # 🐍 Snake Game AI - Deep Q-Learning (DQN)
 
 This repository contains a Reinforcement Learning project where an AI agent learns to play the classic Snake game from scratch using **Deep Q-Learning (DQN)**. 
@@ -53,4 +52,3 @@ Note:
 * Epsilon-Greedy Exploration Strategy
 * Experience Replay (Long-term & Short-term memory)
 * PyTorch Model Checkpointing
-```
