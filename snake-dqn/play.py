@@ -11,9 +11,13 @@ def play():
     # (7 inputs, 256 hidden nodes, 3 outputs)
     model = Linear_QNet(7, 256, 3) 
     
+    #------------------------------INPUT MODEL PATH-------------------------------
+    model_path = './model/model.pth'
+    #------------------------------------------------------------------------------
+    
     # 3. LOAD THE TRAINED BRAIN!
     # We use weights_only=True for security best practices when loading PyTorch models
-    model.load_state_dict(torch.load('./model/model.pth', weights_only=True))
+    model.load_state_dict(torch.load(model_path, weights_only=True))
     
     # Put the model in evaluation mode (turns off things like dropout/batchnorm if we had them)
     model.eval() 
